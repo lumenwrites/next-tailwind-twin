@@ -3,7 +3,7 @@
 Begin with Next.js+Tailwind+Typescript starter project:
 
 ```
-npx create-next-app -e with-tailwindcss tailwind-twin
+npx create-next-app -e with-tailwindcss my-next-tailwind-twin-app
 ```
 
 Install the packages for Twin.macro and emotion:

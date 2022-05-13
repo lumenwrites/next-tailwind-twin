@@ -13,8 +13,9 @@ module.exports = {
   plugins: [
     [
       '@emotion/babel-plugin',
-      { autoLabel: 'dev-only', labelFormat: '[local]-[filename]' },
+      { autoLabel: 'dev-only', labelFormat: '[local]' },
     ],
-    'babel-plugin-macros',
+    'babel-plugin-twin',
+    'babel-plugin-macros'
   ],
 }
